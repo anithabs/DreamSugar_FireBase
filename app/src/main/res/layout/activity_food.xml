@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:paddingTop="4dp">
+            <TextView
+                style="@style/TextView"
+                android:text="Type of Food" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="1">
+            <AutoCompleteTextView
+                android:id = "@+id/foodtypevalue"
+                style="@style/EditTextN"
+                android:ems="10"
+                android:inputType="text"
+                android:editable="true"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:paddingTop="2dp">
+            <TextView
+                style="@style/TextView"
+                android:text="Amount of Food" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:weightSum="1"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <EditText
+                android:id = "@+id/amount_food_value"
+                style="@style/EditTextN"
+                android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:weightSum="1"
+            android:paddingTop="2dp">
+            <TextView
+                style="@style/TextView"
+                android:text="Date" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:weightSum="1"
+            android:paddingTop="2dp">
+            <TextView
+                style="@style/TextView"
+                android:text="Time" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:weightSum="1">
+            <EditText
+                android:id = "@+id/date_value_f"
+                style="@style/EditTextN"
+                android:ems="10"
+                android:inputType="date" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:weightSum="1">
+            <EditText
+                android:id = "@+id/time_value_f"
+                style="@style/EditTextN"
+                android:inputType="time" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:paddingTop="30dp"
+            android:weightSum="1">
+            <Button
+                android:id = "@+id/foodaddbutton"
+                style="@style/Button"
+                android:layout_gravity="center"
+                android:onClick="foodInsertDataBase"
+                android:layout_marginLeft="80dp"
+                android:text="ADD"
+                android:visibility="visible" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LinearLayout"
+            android:paddingTop="30dp"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button_food_back"
+                style="@style/Button"
+                android:onClick="goBack"
+                android:text="Back"
+                android:layout_marginRight="50dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

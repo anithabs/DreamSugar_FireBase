@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">MyDiabetesTracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="dialog_edit">Edit</string>
+
+
+    <!--  <string name="app_name">Welcome!</string>-->
+
+    <string name="reminder_item_title_generic">It is time to do an entry in!</string>
+    <string name="reminder_item_title_generic2">Time to log your glucose level!</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="activitiy_reminders_error_duplicate">This reminder already exists.</string>
+    <string name="activity_reminder_error_empty">Please enter a valid label.</string>
+
+    <string-array name="reminder_title_array" translatable="false">
+        <item>@string/reminder_item_title_generic</item>
+        <item>@string/reminder_item_title_generic2</item>
+    </string-array>
+    <string-array name="menu_array">
+        <item>Food</item>
+        <item>Glucose</item>
+        <item>Exercise</item>
+        <item>Prescription</item>
+    </string-array>
+
+    <string-array name="menu_array_graph">
+        <item>Glucose</item>
+        <item>Exercise</item>
+        <item>Prescription</item>
+    </string-array>
+
+    <string-array name="menu_reading">
+        <item>Before breakfast</item>
+        <item>After breakfast</item>
+        <item>Before lunch</item>
+        <item>After lunch</item>
+        <item>Before dinner</item>
+        <item>After dinner</item>
+        <item>Snack</item>
+        <item>Bedtime</item>
+        <item>Night</item>
+        <item>Fasting glucose</item>
+        <item>Recheck</item>
+        <item>Other</item>
+    </string-array>
+    <string name="user">Login Name</string>
+    <string name="password"> Password</string>
+    <string name="activity_reminder_add_label">Set reminder Label</string>
+
+    <string name="passwordhint">Enter Password</string>
+    <string name="userhint">Enter user name</string>
+    <string name="buttonlogin">Login</string>
+    <string name="newuser"><u>Create New Account</u></string>
+
+    <string name="glucose">Glucose</string>
+    <string name="glucose_log_title">Blood-Glucose Log</string>
+    <string name="activity">Activity</string>
+    <string name="medication">Medication</string>
+    <string name="food">Diet Tracker</string>
+
+    <string name="glucose_level">Glucose Level(mg/dL)</string>
+    <string name="reading_taken">Reading Taken</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+
+    <string name="add_value">Add Reading</string>
+    <string name="delete_value">Delete Records</string>
+    <string name="view_values">View Records</string>
+    <string name="view_report">View Reports</string>
+
+    <string name="foodtype">Type of food</string>
+    <string name="food_log_title">Food Log</string>
+    <string name="amountfood">Amount of food</string>
+    <string name="carbo">Carbohydrates</string>
+    <string name="protein">Protein</string>
+    <string name="fat">Fat</string>
+    <string name="calories">Calories</string>
+
+    <string name="add_value_glu">Add Reading</string>
+    <string name="delete_value_glu">Delete Records</string>
+    <string name="view_values_glu">View Records</string>
+    <string name="view_report_glu">View Reports</string>
+
+    <string name="add_details">Add Details</string>
+    <string name="add_glucose">Glucose</string>
+    <string name="add_exercise">Exercise</string>
+    <string name="add_regimen">Regimen</string>
+    <string name="add_remainders">Remainder</string>
+    <string name="add_food">Food</string>
+    <string name="add_medicine">Medicine</string>
+    <string name="regimen_details">Regimen Details</string>
+
+
+    <string name="exercise_title">Add Exercise Reading</string>
+    <string name="exercise_type">Exercise Type</string>
+    <string name="exercise_duration">Duration(min)</string>
+    <string name="hint_exercise_start_time">Time</string>
+    <string name="exercise_date">Date</string>
+    <string name="submit_button">Submit</string>
+
+    <string name="regimen_title">Regimen</string>
+    <string name="regimen_doctor">Doctor</string>
+    <string name="tested_bgl">BGL</string>
+    <string name="target_bgl">Target BGL</string>
+    <string name="exercise_regimen">Exercise</string>
+    <string name="prescription_regimen">Meds</string>
+    <string name="diet_regimen">Diet</string>
+    <string name="time_regimen">Time</string>
+    <string name="date_regimen">Date</string>
+
+    <string name="prescription_type">Prescription</string>
+    <string name="prescription_title">Prescription Log</string>
+    <string name="hint_prescription_type">Enter Drug name</string>
+    <string name="prescription_dosage">Dosage(mg)</string>
+    <string name="prescription_time">Time</string>
+    <string name="prescription_date">Date </string>
+    <string name="fragment_update_heading">UPDATE / DELETE RECORD</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="user_name">User Name</string>
+    <string name="password_legend">Password</string>
+    <string name="motto">"The best way to manage diabetes."</string>
+
+
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="empty_fields_message">Please do not leave any fields empty</string>
+    <string name="no_users_found">No users found in database.</string>
+    <string name="password_incorrect">Username/Password not correct. Please try again.</string>
+    <string name="user_already_exists">User already exists. Try a new username.</string>
+    <string name="email_already_exists">Email address already used. Please try again.</string>
+    <string name="no_such_user">No such user found.</string>
+    <string name="account_created">New account created for username: </string>
+    <string name="add_new_user_title">Add New User</string>
+
+    <string name="begin">Start now</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_update_prescription_records">UpdatePrescriptionRecords</string>
+    <string name="title_activity_remainder">RemainderActivity</string>
+
+
+    <string name="edit_reminder_title">Task Reminder - Edit</string>
+    <string name="no_reminders">No Reminders Yet</string>
+    <string name="menu_insert">Add Reminder</string>
+    <string name="menu_delete">Delete Reminder</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Save</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <!-- <string name="date">Reminder Date</string>
+    <string name="time">Reminder Time</string>-->
+
+    <!-- Toasts -->
+    <string name="task_saved_message">Task has been saved</string>
+
+    <!-- Notification Bar -->
+    <string name="notify_new_task_message">A task needs to be reviewed!</string>
+    <string name="notify_new_task_title">Task Reminder!</string>
+
+    <!-- Preferences -->
+    <string name="pref_category_task_defaults_key">task_default_category</string>
+    <string name="pref_category_task_defaults_title">Task Title Default</string>
+    <string name="pref_task_title_key">default_reminder_title</string>
+    <string name="pref_task_title_dialog_title">Default Reminder Title</string>
+    <string name="pref_task_title_message">The default title for a reminder.</string>
+    <string name="pref_task_title_summary">Default title for reminders.</string>
+    <string name="pref_task_title_title">Default Reminder Title</string>
+
+    <string name="pref_category_datetime_key">date_time_default_category</string>
+    <string name="pref_category_datetime_title">Date Time Defaults</string>
+    <string name="pref_default_time_from_now_key">time_from_now_default</string>
+    <string name="pref_default_time_from_now_dialog_title">Time From Now</string>
+    <string name="pref_default_time_from_now_message">The default time from now that a new reminder should be set to.</string>
+    <string name="pref_default_time_from_now_summary">Sets the default time for a reminder.</string>
+    <string name="pref_default_time_from_now_title">Default Reminder Time</string>
+    <string name="title_activity_exercise_graph_fragment">EXerciseGraphFragment</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#FFEEEE</color>
+    <color name="border_color">#B22222</color>
+    <color name="white">#FFFFFF</color>
+    <color name="maroon">#B22222</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDark">#B00000</color>
+    <color name="colorPrimary">#B22222</color>
+    <color name="colorWhite">#FFEEEE</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorMotto">#B00000</color>
+</resources>

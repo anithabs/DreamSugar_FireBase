@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">MyDiabetesTracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+        <!--  <string name="app_name">Welcome!</string>-->
+
+        <string name="user">Login Name</string>
+        <string name="password"> Password</string>
+
+        <string name="passwordhint">Enter Password</string>
+        <string name="userhint">Enter user name</string>
+        <string name="buttonlogin">Login</string>
+        <string name="newuser">Create New Account</string>
+
+        <string name="glucose">Glucose</string>
+        <string name="glucose_log_title">Blood-Glucose Log</string>
+        <string name="activity">Activity</string>
+        <string name="medication">Medication</string>
+        <string name="food">Diet Tracker</string>
+
+        <string name="glucose_level">Glucose Level</string>
+        <string name="reading_taken">Reading Taken</string>
+        <string name="date" >Date</string>
+        <string name="time" >Time</string>
+
+        <string name="add_value">Add Reading</string>
+        <string name="delete_value">Delete Records</string>
+        <string name="view_values">View Records</string>
+        <string name="view_report">View Reports</string>
+
+        <string name="foodtype">Type Of Food</string>
+        <string name="food_log_title">Food Log</string>
+        <string name="amountfood">Amount Of Food</string>
+        <string name="carbo">Carbohydrates</string>
+        <string name="protein">Protein</string>
+        <string name="fat">Fat</string>
+        <string name="calories">Calories</string>
+
+        <string name="add_value_glu">Add Reading</string>
+        <string name="delete_value_glu">Delete Records</string>
+        <string name="view_values_glu">View Records</string>
+        <string name="view_report_glu">View Reports</string>
+
+        <string name="add_details">Add Details</string>
+        <string name="add_glucose">Glucose</string>
+        <string name="add_exercise">Exercise</string>
+        <string name="add_notes">Notes</string>
+        <string name="add_remainders">Remainder</string>
+        <string name="add_food">Food</string>
+        <string name="add_medicine">Medicine</string>
+
+        <string name="exercise_title">Exercise Log</string>
+        <string name="exercise_type">Type of exercise</string>
+        <string name="exercise_duration">Duration (in minutes)</string>
+        <string name="hint_exercise_start_time">Start time</string>
+        <string name="exercise_date">Enter Date</string>
+        <string name="submit_button">Submit</string>
+
+        <string name="prescription_type">Prescription Type</string>
+        <string name="prescription_title">Prescription Log</string>
+        <string name="hint_prescription_type">Enter prescription name</string>
+        <string name="prescription_dosage">Dosage (in milligrams)</string>
+        <string name="prescription_time">Time administered</string>
+        <string name="prescription_date">Date administered</string>
+
+
+        <string name="welcome">Welcome</string>
+        <string name="user_name">Select a User Name</string>
+        <string name="password_legend">Choose Password</string>
+        <string name="motto">"The best way to manage diabetes."</string>
+
+
+
+        <string name="firstname">First Name</string>
+        <string name="lastname">Last Name</string>
+        <string name="email_address">Email Address</string>
+        <string name="empty_fields_message">Please do not leave any fields empty</string>
+        <string name="no_users_found">No users found in database.</string>
+        <string name="password_incorrect">Username/Password not correct. Please try again.</string>
+        <string name="user_already_exists">User already exists. Try a new username.</string>
+        <string name="email_already_exists">Email address already used. Please try again.</string>
+        <string name="no_such_user">No such user found.</string>
+        <string name="account_created">New account created for username: </string>
+        <string name="add_new_user_title">Add New User</string>
+
+        <string name="begin">Start now</string>
+    </resources>
+

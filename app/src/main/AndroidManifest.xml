@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.uwm.mydiabitiestracker">
+
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Insertion.FoodInsertActivity" />
+        <activity android:name=".Insertion.GlucoseInsertActivity" />
+        <activity android:name=".Insertion.ExerciseActivity" />
+        <activity android:name=".Insertion.PrescriptionActivity" />
+        <activity android:name=".Insertion.UserActivity" />
+        <activity android:name=".ListMainRecords" />
+        <activity android:name=".EditRecords.UpdateFoodRecords" />
+        <activity android:name=".EditRecords.UpdateGlucoseRecords" />
+        <activity android:name=".EditRecords.UpdatePrescriptionRecords" />
+        <activity android:name=".EditRecords.UpdateExerciseRecords" />
+        <activity android:name=".Insertion.RegimenActivity" />
+        <activity android:name=".VeiwRegimen" />
+        <activity
+            android:name=".Alarm.ReminderListActivity"
+            android:label="Reminder"
+            />
+        <activity
+            android:name=".Alarm.ReminderEditActivity"
+            android:label="@string/edit_reminder_title" />
+        <activity
+            android:name=".Alarm.TaskPreferences"
+            android:label="@string/app_name" />
+
+        <receiver android:name=".Alarm.OnBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Alarm.OnAlarmReceiver" />
+
+        <service android:name=".Alarm.ReminderService" />
+
+        <!--
+    <activity
+            android:name=".ReminderActivity"
+            android:label="Reminder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RemainderActivity"
+            android:label="@string/title_activity_remainder"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Alarm.ReminderListActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Alarm.ReminderEditActivity" android:label="@string/edit_reminder_title"/>
+        <activity android:name=".Alarm.TaskPreferences" android:label="@string/app_name" />
+        <receiver android:name=".Alarm.OnBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Alarm.OnAlarmReceiver" />
+        <service android:name=".Alarm.ReminderService" />
+        <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+        <uses-permission android:name="android.permission.WAKE_LOCK" />
+    </application>
+        -->
+
+        <activity android:name=".ListGraphsActivity"></activity>
+    </application>
+
+</manifest>

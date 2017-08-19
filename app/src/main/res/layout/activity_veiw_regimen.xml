@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="@dimen/prescription_title_size"
+        android:textStyle="bold"
+        android:textColor="@color/maroon"
+        android:text="@string/regimen_title"/>
+
+    <TextView
+        android:id="@+id/regimen_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:paddingBottom="0dp"
+        android:textColor="@color/maroon"
+        android:textSize="@dimen/hidestringsize"
+        android:text="@string/regimen_doctor"/>
+    <EditText
+        android:focusable="true"
+        android:id="@+id/regimen_doctor_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/regimen_doctor"
+        android:layout_alignLeft="@+id/tested_bgl_value_view"
+        android:layout_alignStart="@+id/tested_bgl_value_view" />
+    <TextView
+        android:id="@+id/tested_bgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ahm"
+        android:layout_below="@+id/regimen_doctor"
+        android:layout_alignLeft="@+id/regimen_doctor"
+        android:textColor="@color/maroon"
+        android:textSize="@dimen/hidestringsize"
+        android:text="@string/tested_bgl"/>
+    <EditText
+        android:id="@+id/tested_bgl_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"
+        android:layout_below="@+id/regimen_doctor_value_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/tested_bgl"
+        android:layout_toRightOf="@+id/tested_bgl"
+        android:layout_toEndOf="@+id/tested_bgl" />
+    <TextView
+        android:id="@+id/target_bgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ahm"
+        android:layout_below="@+id/tested_bgl"
+        android:layout_alignLeft="@+id/tested_bgl"
+        android:textColor="@color/maroon"
+        android:textSize="@dimen/hidestringsize"
+        android:text="@string/target_bgl"/>
+    <EditText
+        android:id="@+id/target_bgl_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"
+        android:layout_below="@+id/tested_bgl_value_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/target_bgl"
+        android:layout_toRightOf="@+id/tested_bgl"
+        android:layout_toEndOf="@+id/tested_bgl" />
+    <TextView
+        android:id="@+id/exercise_regimen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ahm"
+        android:layout_below="@+id/target_bgl"
+        android:layout_alignLeft="@+id/regimen_doctor"
+        android:textColor="@color/maroon"
+        android:textSize="@dimen/hidestringsize"
+        android:text="@string/exercise_regimen"/>
+    <EditText
+        android:id="@+id/exercise_regimen_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"
+        android:layout_below="@+id/target_bgl_value_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/exercise_regimen"
+        android:layout_alignLeft="@+id/prescription_regimen_value_view"
+        android:layout_alignStart="@+id/prescription_regimen_value_view" />
+    <TextView
+        android:id="@+id/prescription_regimen"
+        android:layout_marginTop="@dimen/ahm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/exercise_regimen"
+        android:layout_below="@+id/exercise_regimen"
+        android:textColor="@color/maroon"
+        android:textSize="@dimen/hidestringsize"
+        android:text="@string/prescription_regimen" />
+    <EditText
+        android:id="@+id/prescription_regimen_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/prescription_regimen"
+        android:inputType="time"
+        android:layout_below="@+id/exercise_regimen_value_view"
+        android:layout_toRightOf="@+id/tested_bgl"
+        android:layout_toEndOf="@+id/tested_bgl" />
+    <TextView
+        android:id="@+id/diet_regimen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/maroon"
+        android:textSize="@dimen/hidestringsize"
+        android:text="@string/diet_regimen"
+        android:layout_above="@+id/regimen_value_time_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/diet_regimen_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"
+        android:layout_below="@+id/prescription_regimen_value_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/prescription_regimen_value_view"
+        android:layout_alignStart="@+id/prescription_regimen_value_view" />
+    <TextView
+        android:id="@+id/time_regimen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/maroon"
+        android:textSize="@dimen/hidestringsize"
+        android:text="Time"
+        android:layout_alignBottom="@+id/regimen_value_time_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/regimen_value_time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"
+
+        android:layout_below="@+id/diet_regimen_value_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/diet_regimen_value_view"
+        android:layout_alignStart="@+id/diet_regimen_value_view" />
+    <TextView
+        android:id="@+id/date_regimen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/maroon"
+        android:textSize="@dimen/hidestringsize"
+        android:text="Date"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/time_regimen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/date_regimen_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"
+        android:layout_alignBottom="@+id/date_regimen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/regimen_value_time_view"
+        android:layout_alignStart="@+id/regimen_value_time_view" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="goBack"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

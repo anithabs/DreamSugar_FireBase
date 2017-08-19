@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.project.uwm.mydiabitiestracker.Alarm.ReminderListActivity">
+  <item android:id="@+id/menu_insert"
+      android:actionProviderClass= "android.widget.ShareActionProvider"
+          android:icon="@android:drawable/ic_menu_add"
+          android:title="@string/menu_insert" />
+  <item android:id="@+id/menu_settings"
+  		  android:icon="@android:drawable/ic_menu_preferences"
+  		  android:title="@string/menu_settings" />
+</menu>
